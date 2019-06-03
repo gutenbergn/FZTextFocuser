@@ -2,7 +2,6 @@
 `FZTextFocuser` allows focusable text to be displayed in tvOS, with options to customize the focus state, either by highlighting the entire text or only a portion of it.
 
 [![Version](https://img.shields.io/cocoapods/v/FZTextFocuser.svg?style=flat)](https://cocoapods.org/pods/FZTextFocuser)
-[![License](https://img.shields.io/cocoapods/l/FZTextFocuser.svg?style=flat)](https://cocoapods.org/pods/FZTextFocuser)
 [![Platform](https://img.shields.io/cocoapods/p/FZTextFocuser.svg?style=flat)](https://cocoapods.org/pods/FZTextFocuser)
 
 ## How to Use
