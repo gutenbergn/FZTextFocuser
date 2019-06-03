@@ -1,0 +1,960 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011CA0FE188C3EC33774127496DB0A3A /* UIApplication+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77318D1DACB8044A8987A1651C0C476E /* UIApplication+TopViewController.swift */; };
+		0654022A90DF466040E1264CA7F7D884 /* SKProduct+TrialDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE379AD2B7D6705C51E63D238A32308 /* SKProduct+TrialDuration.swift */; };
+		13A61A6E6A654774D13A8F4EE1A2DAAA /* NSObject+RemoveObservers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5830731BC4FD51A3860C5D1A0EB87DF /* NSObject+RemoveObservers.swift */; };
+		18682A543A6943EB39DF7270F63D1F5E /* UIView+ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65483768507565859E95BEB85A3EEB31 /* UIView+ParentViewController.swift */; };
+		19B2A1E4335906696819B9DC164679D8 /* UIColor+Brightness.swift in Sources */ = {isa = PBXBuildFile; fileRef = C485F36071F0804F80BB05F6EA2EFD5C /* UIColor+Brightness.swift */; };
+		1B9174EAB00B46C8FF8035C975626647 /* FuzeUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7E24A9D2FC8598D039F8CEF7B51148 /* FuzeUtils.framework */; };
+		1E8379F861625137B37EFC89EE1EFEDF /* URLRequest+CurlCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C8E64AD6771A70C12300FDF95BACD /* URLRequest+CurlCommand.swift */; };
+		23A8E8449DE61E08E48BBDD8BC6AC0BC /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782214C89AEC01B8CE813F9F2F53BF3B /* UIImage+Color.swift */; };
+		2B7D46129AD82E1CB6CADE3190118129 /* UIView+Underline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F532D2A4ADE5B650E66D8729E2AC2A /* UIView+Underline.swift */; };
+		43FA6896C2CD556E7E985DC5685AE040 /* UIView+LoadFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3100729C16B99DEDE49E5FBF6286D8EC /* UIView+LoadFromNib.swift */; };
+		48B38DD89DDCC39CE37897B9D64C6EC7 /* NSLayoutConstraint+Multiplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6638574A8D6C240A8AB07BC498147EE8 /* NSLayoutConstraint+Multiplier.swift */; };
+		4BB6056720E1F984E7F4174C87819337 /* DisplayHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C71C622CD646EE2D7404B79BB1B1EE95 /* DisplayHelper.swift */; };
+		513DD3B59B8F6A1C5FB88A84BD225A04 /* NSString+StripCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D4C0BDE0F169B2E5873D1E0C6A17E7 /* NSString+StripCurrency.swift */; };
+		547BF4FDEB3BB852677CE1F1BB58EC08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10468CD5B2F9DC7DE44C1C43A917CEA /* Foundation.framework */; };
+		564A0D739A19FFAD000E99E98CD958E3 /* UIGestureRecognizer+Cancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447DBC49F9403EA93B60747B0CFA1D26 /* UIGestureRecognizer+Cancel.swift */; };
+		5680D95C63791C62DD06378F5584C04C /* CALayer+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7766FAC3163D7ECE6AA130BA095D53A9 /* CALayer+Animation.swift */; };
+		5969AA3B2DA1B3066821DECD6659C0E2 /* UIView+RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B65F910AB783E78441DD927B22DCB23 /* UIView+RoundCorners.swift */; };
+		611EAE13AF0E9DE7AC441DA99083B930 /* UIButton+Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E115F8DB4EDC5760F4274BBBBF128F8 /* UIButton+Subtitle.swift */; };
+		63C2202488DFBD137FE149A2F5E95C36 /* UIViewController+PreloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD298311D9EB94FBCE9EDA3D7AD69EB2 /* UIViewController+PreloadView.swift */; };
+		63E8C29B0D797A5B59CF2BA0EB889F15 /* FZTextFocuser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E06C36C06299ACA22CC2E6E7D4086507 /* FZTextFocuser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6404E20A7B375907F20D3057A77D2177 /* NSAttributedString+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B8CD642DC48614C3B36685C50A69E /* NSAttributedString+Range.swift */; };
+		65C932002880194744F23B3C45556214 /* FuzeUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 895601FF6096E8367F06829F61E1D41A /* FuzeUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66D7631236FA9B86F0805C1FC7D42C7B /* UIViewController+ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5BE1B4D4F794EB182C9A6558327C5F /* UIViewController+ChildViewController.swift */; };
+		672E232BEC9FE52C6CAA46AC7613CEC2 /* FZTextFocuser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B87FB232E2FAB959DD865CBB7FD29704 /* FZTextFocuser-dummy.m */; };
+		6DCCD6C1AF69B8A5F7188B9B2B12E60F /* UIView+RemoveGestureRecognizers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB28BBE6913EEF2AACE25CD77EDDB4D /* UIView+RemoveGestureRecognizers.swift */; };
+		6EAE3315CFB67FE5115FA8C4805A03D1 /* Date+DateDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D707CE54D7292D6955DD0F7D7CF70B /* Date+DateDifference.swift */; };
+		764E1E06BAA60E91CA19B4EBA5D4696E /* UITabBarItem+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC27F854E1E2C8D99C5B1A62C9F089 /* UITabBarItem+Custom.swift */; };
+		8C7DB82E9B58369D6CE143002D5F769A /* UIButton+Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1004834CF4BC3D76E51DDACD85879BDB /* UIButton+Fade.swift */; };
+		90CEFAC4310D534BAE09F53138A10A49 /* FuzeUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 202CE14DA54DADD6F984DF675657C122 /* FuzeUtils-dummy.m */; };
+		9712F8E9283CB982184C846EA7233648 /* String+Subscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A802FE5D2E34234E00A4FC4F8A64A0 /* String+Subscript.swift */; };
+		9757BD662B436A503B31A71562768F48 /* Pods-FZTextFocuser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3247D19DF80ADAAEA2EA9C43371F16 /* Pods-FZTextFocuser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C047C24137073C16EA687C023B849E1 /* UINavigationController+TopBarHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5772EB00AE7B23CA0575C02C91FE6B6 /* UINavigationController+TopBarHeight.swift */; };
+		9D017854C4A8CE781105A636A6DB6598 /* UITableViewCell+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6D0FD5AC36B8EF97016DC28B5D9E8C /* UITableViewCell+TableView.swift */; };
+		9D07F74571BE14AC43E0668E80757952 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E12B8A96FBC6546F28D1F6B9324B3C1 /* CoreText.framework */; };
+		9F33AFD9A180C865D9F46DD833FB2568 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B2C95FFD398F26BB1030493A54AA72 /* String+Validation.swift */; };
+		ABD576DA22608D4984F7A230BF5E3B4A /* FZTextFocuser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF1544B4306F42255588A5051E8A7E8 /* FZTextFocuser.swift */; };
+		B2A0E9EAD4BA16576F45B8A08090EC61 /* Pods-FZTextFocuser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1784E871EFE4DAC119C56DF7328876A6 /* Pods-FZTextFocuser_Example-dummy.m */; };
+		B2C4E99BCCA13FD53211868313905B2A /* UIViewController+StatusBarWindowLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C7963E54C5B8998141E09A128E8013 /* UIViewController+StatusBarWindowLevel.swift */; };
+		B4D823E911569B397E0683044D212D11 /* FZDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103DB0EE1C95A6B470A606DFFEFA457 /* FZDateFormatter.swift */; };
+		BA4BBAAF1EB2A65D5569E3E0E591F359 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74205C3DC2E4B109836F1A37AD9AFB7 /* UIKit.framework */; };
+		BD9B4650EBF66156F44CB217D1A55317 /* UIPageViewController+ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83A152523188506A3EDF255899EA846 /* UIPageViewController+ScrollView.swift */; };
+		C8C9BD99786D9E7473947BD786793909 /* String+Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA786933012F249AA7236DCEC4ACC0 /* String+Version.swift */; };
+		CFB135AC1E23ADC734370F6BE4DD49A4 /* UIViewController+UserActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF434E934D648AC35714ECBB26CE679C /* UIViewController+UserActivity.swift */; };
+		D5EE20CDE02E383224D61B9FDAF87398 /* NSAttributedString+CustomLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD57EF4DE3A38B521206E73DF0B215 /* NSAttributedString+CustomLineSpacing.swift */; };
+		E2AFF0939464810CD32B3F1A3639523E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10468CD5B2F9DC7DE44C1C43A917CEA /* Foundation.framework */; };
+		E9502BBC28B2C1839E7A8561F0CC1709 /* UIView+ViewDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3924BA25486A912F6011ED6EECA817EE /* UIView+ViewDisplay.swift */; };
+		EBAFD6C6B39CD9C53CEA9DE843EABA50 /* UILabel+Fade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2DCCB75F31C90E5AA32D34CF9D2113 /* UILabel+Fade.swift */; };
+		EEF5BFFDD224DCA5F631AE3F67CB3781 /* String+SizeWithFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535D6CCDBBB99FBF28585B8C3B110AAE /* String+SizeWithFont.swift */; };
+		EF9ED273EB20DB11DA9B430F84F413ED /* UIImageView+Crossfade.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26D89FA6144C1D5B1285C8E8F30F6AB /* UIImageView+Crossfade.swift */; };
+		F073831644710E59BB221E21A8CE7264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10468CD5B2F9DC7DE44C1C43A917CEA /* Foundation.framework */; };
+		F2FD34061510A508970B3052E73E29FA /* UISearchBar+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB626CFB4DF8D99987050CF443D07CB /* UISearchBar+Subviews.swift */; };
+		FB3AA0355EBCBD7BB0D366B3B8EDDC3D /* String+FirstLetterCapitalization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41A131F4A0847E8E4C02FA8E4748DD3 /* String+FirstLetterCapitalization.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		225C157E105A89F15C4BFCE07DABAB5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140858EDB8A4DD4819F968A22BB7041B;
+			remoteInfo = FZTextFocuser;
+		};
+		8367C0FFC678EA1F8C9EEF39D11C4A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDDE9CF0D93338A80B75F65BDA3A9213;
+			remoteInfo = FuzeUtils;
+		};
+		AFCF9150F86A262A8A05CDF34BBB8D5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDDE9CF0D93338A80B75F65BDA3A9213;
+			remoteInfo = FuzeUtils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E115F8DB4EDC5760F4274BBBBF128F8 /* UIButton+Subtitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Subtitle.swift"; path = "FuzeUtils/Classes/UIButton+Subtitle.swift"; sourceTree = "<group>"; };
+		1004834CF4BC3D76E51DDACD85879BDB /* UIButton+Fade.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Fade.swift"; path = "FuzeUtils/Classes/UIButton+Fade.swift"; sourceTree = "<group>"; };
+		13B150E1C4DF47FA330A68CE716E539B /* FuzeUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuzeUtils.modulemap; sourceTree = "<group>"; };
+		1784E871EFE4DAC119C56DF7328876A6 /* Pods-FZTextFocuser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZTextFocuser_Example-dummy.m"; sourceTree = "<group>"; };
+		1D3247D19DF80ADAAEA2EA9C43371F16 /* Pods-FZTextFocuser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZTextFocuser_Example-umbrella.h"; sourceTree = "<group>"; };
+		202CE14DA54DADD6F984DF675657C122 /* FuzeUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuzeUtils-dummy.m"; sourceTree = "<group>"; };
+		21F532D2A4ADE5B650E66D8729E2AC2A /* UIView+Underline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Underline.swift"; path = "FuzeUtils/Classes/UIView+Underline.swift"; sourceTree = "<group>"; };
+		30873D5DE5A206B26E3121C463392915 /* FuzeUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FuzeUtils-Info.plist"; sourceTree = "<group>"; };
+		3100729C16B99DEDE49E5FBF6286D8EC /* UIView+LoadFromNib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+LoadFromNib.swift"; path = "FuzeUtils/Classes/UIView+LoadFromNib.swift"; sourceTree = "<group>"; };
+		3924BA25486A912F6011ED6EECA817EE /* UIView+ViewDisplay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+ViewDisplay.swift"; path = "FuzeUtils/Classes/UIView+ViewDisplay.swift"; sourceTree = "<group>"; };
+		3AAA786933012F249AA7236DCEC4ACC0 /* String+Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Version.swift"; path = "FuzeUtils/Classes/String+Version.swift"; sourceTree = "<group>"; };
+		3B2B8CD642DC48614C3B36685C50A69E /* NSAttributedString+Range.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Range.swift"; path = "FuzeUtils/Classes/NSAttributedString+Range.swift"; sourceTree = "<group>"; };
+		447DBC49F9403EA93B60747B0CFA1D26 /* UIGestureRecognizer+Cancel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIGestureRecognizer+Cancel.swift"; path = "FuzeUtils/Classes/UIGestureRecognizer+Cancel.swift"; sourceTree = "<group>"; };
+		4AAB9A38098FB0B81E46A51B26E18CCE /* FuzeUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuzeUtils-prefix.pch"; sourceTree = "<group>"; };
+		4FB28BBE6913EEF2AACE25CD77EDDB4D /* UIView+RemoveGestureRecognizers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+RemoveGestureRecognizers.swift"; path = "FuzeUtils/Classes/UIView+RemoveGestureRecognizers.swift"; sourceTree = "<group>"; };
+		535D6CCDBBB99FBF28585B8C3B110AAE /* String+SizeWithFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SizeWithFont.swift"; path = "FuzeUtils/Classes/String+SizeWithFont.swift"; sourceTree = "<group>"; };
+		5C66264273E782A9ED1B485BEF99F82C /* Pods_FZTextFocuser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZTextFocuser_Example.framework; path = "Pods-FZTextFocuser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65483768507565859E95BEB85A3EEB31 /* UIView+ParentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+ParentViewController.swift"; path = "FuzeUtils/Classes/UIView+ParentViewController.swift"; sourceTree = "<group>"; };
+		6638574A8D6C240A8AB07BC498147EE8 /* NSLayoutConstraint+Multiplier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Multiplier.swift"; path = "FuzeUtils/Classes/NSLayoutConstraint+Multiplier.swift"; sourceTree = "<group>"; };
+		6CFB271DCD779DDC8A405B4FED87A842 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		70879CCA0752CD620939AF965D30014F /* FZTextFocuser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZTextFocuser.xcconfig; sourceTree = "<group>"; };
+		7466416AAD37CF42E2897BEF8BEE9034 /* Pods-FZTextFocuser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZTextFocuser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		759E825FD3D650EC9828E01509F40575 /* Pods-FZTextFocuser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZTextFocuser_Example-Info.plist"; sourceTree = "<group>"; };
+		77318D1DACB8044A8987A1651C0C476E /* UIApplication+TopViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+TopViewController.swift"; path = "FuzeUtils/Classes/UIApplication+TopViewController.swift"; sourceTree = "<group>"; };
+		7766FAC3163D7ECE6AA130BA095D53A9 /* CALayer+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Animation.swift"; path = "FuzeUtils/Classes/CALayer+Animation.swift"; sourceTree = "<group>"; };
+		782214C89AEC01B8CE813F9F2F53BF3B /* UIImage+Color.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Color.swift"; path = "FuzeUtils/Classes/UIImage+Color.swift"; sourceTree = "<group>"; };
+		7990B93007EB2EDA076CFD7F41D6B698 /* Pods-FZTextFocuser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZTextFocuser_Example.modulemap"; sourceTree = "<group>"; };
+		7B65F910AB783E78441DD927B22DCB23 /* UIView+RoundCorners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+RoundCorners.swift"; path = "FuzeUtils/Classes/UIView+RoundCorners.swift"; sourceTree = "<group>"; };
+		80D707CE54D7292D6955DD0F7D7CF70B /* Date+DateDifference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+DateDifference.swift"; path = "FuzeUtils/Classes/Date+DateDifference.swift"; sourceTree = "<group>"; };
+		895601FF6096E8367F06829F61E1D41A /* FuzeUtils-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuzeUtils-umbrella.h"; sourceTree = "<group>"; };
+		8D5BE1B4D4F794EB182C9A6558327C5F /* UIViewController+ChildViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+ChildViewController.swift"; path = "FuzeUtils/Classes/UIViewController+ChildViewController.swift"; sourceTree = "<group>"; };
+		8F2DCCB75F31C90E5AA32D34CF9D2113 /* UILabel+Fade.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Fade.swift"; path = "FuzeUtils/Classes/UILabel+Fade.swift"; sourceTree = "<group>"; };
+		8FE379AD2B7D6705C51E63D238A32308 /* SKProduct+TrialDuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SKProduct+TrialDuration.swift"; path = "FuzeUtils/Classes/SKProduct+TrialDuration.swift"; sourceTree = "<group>"; };
+		952C8E64AD6771A70C12300FDF95BACD /* URLRequest+CurlCommand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+CurlCommand.swift"; path = "FuzeUtils/Classes/URLRequest+CurlCommand.swift"; sourceTree = "<group>"; };
+		95C7963E54C5B8998141E09A128E8013 /* UIViewController+StatusBarWindowLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+StatusBarWindowLevel.swift"; path = "FuzeUtils/Classes/UIViewController+StatusBarWindowLevel.swift"; sourceTree = "<group>"; };
+		99BE1D3486C38AD7910C396849237BF6 /* Pods-FZTextFocuser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZTextFocuser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E12B8A96FBC6546F28D1F6B9324B3C1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		A103DB0EE1C95A6B470A606DFFEFA457 /* FZDateFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FZDateFormatter.swift; path = FuzeUtils/Classes/FZDateFormatter.swift; sourceTree = "<group>"; };
+		A3B2C95FFD398F26BB1030493A54AA72 /* String+Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Validation.swift"; path = "FuzeUtils/Classes/String+Validation.swift"; sourceTree = "<group>"; };
+		A41A131F4A0847E8E4C02FA8E4748DD3 /* String+FirstLetterCapitalization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+FirstLetterCapitalization.swift"; path = "FuzeUtils/Classes/String+FirstLetterCapitalization.swift"; sourceTree = "<group>"; };
+		A4AD57EF4DE3A38B521206E73DF0B215 /* NSAttributedString+CustomLineSpacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+CustomLineSpacing.swift"; path = "FuzeUtils/Classes/NSAttributedString+CustomLineSpacing.swift"; sourceTree = "<group>"; };
+		A8A802FE5D2E34234E00A4FC4F8A64A0 /* String+Subscript.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Subscript.swift"; path = "FuzeUtils/Classes/String+Subscript.swift"; sourceTree = "<group>"; };
+		A8CA2F1D9B17FE9B1B09540E12BD9E3D /* FuzeUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuzeUtils.xcconfig; sourceTree = "<group>"; };
+		AB804F9A67D581EEB102224742B2F30A /* Pods-FZTextFocuser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZTextFocuser_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ABFE5E6E58331E87320F01213835CDD9 /* FZTextFocuser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZTextFocuser.modulemap; sourceTree = "<group>"; };
+		ACB4C26D4D6F9AC04A2247C2591179CE /* FZTextFocuser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZTextFocuser-prefix.pch"; sourceTree = "<group>"; };
+		B6C2950D209AD6D68760B540072EAD33 /* Pods-FZTextFocuser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZTextFocuser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B83A152523188506A3EDF255899EA846 /* UIPageViewController+ScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIPageViewController+ScrollView.swift"; path = "FuzeUtils/Classes/UIPageViewController+ScrollView.swift"; sourceTree = "<group>"; };
+		B87FB232E2FAB959DD865CBB7FD29704 /* FZTextFocuser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZTextFocuser-dummy.m"; sourceTree = "<group>"; };
+		B92905E0ACF67749BCD1B7D7A49DD5E7 /* FZTextFocuser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FZTextFocuser.framework; path = FZTextFocuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF1544B4306F42255588A5051E8A7E8 /* FZTextFocuser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FZTextFocuser.swift; path = FZTextFocuser/Classes/FZTextFocuser.swift; sourceTree = "<group>"; };
+		BF7E24A9D2FC8598D039F8CEF7B51148 /* FuzeUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FuzeUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C10468CD5B2F9DC7DE44C1C43A917CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C485F36071F0804F80BB05F6EA2EFD5C /* UIColor+Brightness.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Brightness.swift"; path = "FuzeUtils/Classes/UIColor+Brightness.swift"; sourceTree = "<group>"; };
+		C5772EB00AE7B23CA0575C02C91FE6B6 /* UINavigationController+TopBarHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+TopBarHeight.swift"; path = "FuzeUtils/Classes/UINavigationController+TopBarHeight.swift"; sourceTree = "<group>"; };
+		C5830731BC4FD51A3860C5D1A0EB87DF /* NSObject+RemoveObservers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+RemoveObservers.swift"; path = "FuzeUtils/Classes/NSObject+RemoveObservers.swift"; sourceTree = "<group>"; };
+		C71C622CD646EE2D7404B79BB1B1EE95 /* DisplayHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisplayHelper.swift; path = FuzeUtils/Classes/DisplayHelper.swift; sourceTree = "<group>"; };
+		C7D4C0BDE0F169B2E5873D1E0C6A17E7 /* NSString+StripCurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+StripCurrency.swift"; path = "FuzeUtils/Classes/NSString+StripCurrency.swift"; sourceTree = "<group>"; };
+		CB6D0FD5AC36B8EF97016DC28B5D9E8C /* UITableViewCell+TableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableViewCell+TableView.swift"; path = "FuzeUtils/Classes/UITableViewCell+TableView.swift"; sourceTree = "<group>"; };
+		CD298311D9EB94FBCE9EDA3D7AD69EB2 /* UIViewController+PreloadView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+PreloadView.swift"; path = "FuzeUtils/Classes/UIViewController+PreloadView.swift"; sourceTree = "<group>"; };
+		CF434E934D648AC35714ECBB26CE679C /* UIViewController+UserActivity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+UserActivity.swift"; path = "FuzeUtils/Classes/UIViewController+UserActivity.swift"; sourceTree = "<group>"; };
+		D64F03940B9EA871963FD4DEA9EEBDB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DCB626CFB4DF8D99987050CF443D07CB /* UISearchBar+Subviews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UISearchBar+Subviews.swift"; path = "FuzeUtils/Classes/UISearchBar+Subviews.swift"; sourceTree = "<group>"; };
+		E06C36C06299ACA22CC2E6E7D4086507 /* FZTextFocuser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZTextFocuser-umbrella.h"; sourceTree = "<group>"; };
+		E74205C3DC2E4B109836F1A37AD9AFB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EA3D0024374299547506E73993373665 /* FuzeUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuzeUtils.framework; path = FuzeUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D89FA6144C1D5B1285C8E8F30F6AB /* UIImageView+Crossfade.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+Crossfade.swift"; path = "FuzeUtils/Classes/UIImageView+Crossfade.swift"; sourceTree = "<group>"; };
+		F626229F15A08BC1B6D438C0B433A07A /* FZTextFocuser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZTextFocuser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FACC27F854E1E2C8D99C5B1A62C9F089 /* UITabBarItem+Custom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITabBarItem+Custom.swift"; path = "FuzeUtils/Classes/UITabBarItem+Custom.swift"; sourceTree = "<group>"; };
+		FE44E6A6B0A383FB276EC88652931A6A /* Pods-FZTextFocuser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZTextFocuser_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FE61256CA702F5D7233FB3FF706AF2B0 /* FZTextFocuser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZTextFocuser-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A7619E04A3649AE9EF396D510158E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D07F74571BE14AC43E0668E80757952 /* CoreText.framework in Frameworks */,
+				F073831644710E59BB221E21A8CE7264 /* Foundation.framework in Frameworks */,
+				1B9174EAB00B46C8FF8035C975626647 /* FuzeUtils.framework in Frameworks */,
+				BA4BBAAF1EB2A65D5569E3E0E591F359 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E45EDEA05F77C345F3A044018BC0DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2AFF0939464810CD32B3F1A3639523E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7216C88F2ADA2147AFE3B185BC20398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547BF4FDEB3BB852677CE1F1BB58EC08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145430C6752D99023034FF427F88FB87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3D0024374299547506E73993373665 /* FuzeUtils.framework */,
+				B92905E0ACF67749BCD1B7D7A49DD5E7 /* FZTextFocuser.framework */,
+				5C66264273E782A9ED1B485BEF99F82C /* Pods_FZTextFocuser_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A1E08C36898E8AD0010CE2D4768FEF /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				9E12B8A96FBC6546F28D1F6B9324B3C1 /* CoreText.framework */,
+				C10468CD5B2F9DC7DE44C1C43A917CEA /* Foundation.framework */,
+				E74205C3DC2E4B109836F1A37AD9AFB7 /* UIKit.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		2DEC305A68BA8C734A865BE10C5DC821 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F626229F15A08BC1B6D438C0B433A07A /* FZTextFocuser.podspec */,
+				6CFB271DCD779DDC8A405B4FED87A842 /* LICENSE */,
+				D64F03940B9EA871963FD4DEA9EEBDB8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		50B68F28A549F2A03EFC1C45443847E0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB5343FE32741CDD01E75DB9D5AF38FD /* Pods-FZTextFocuser_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B9CEDBAC706A01FB595D452275A87D4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78BDAFD50261FBC35E903725AA15AB1 /* FZTextFocuser */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7512B5AF75AEC09E393161DAEF4BBBD7 /* FuzeUtils */ = {
+			isa = PBXGroup;
+			children = (
+				7766FAC3163D7ECE6AA130BA095D53A9 /* CALayer+Animation.swift */,
+				80D707CE54D7292D6955DD0F7D7CF70B /* Date+DateDifference.swift */,
+				C71C622CD646EE2D7404B79BB1B1EE95 /* DisplayHelper.swift */,
+				A103DB0EE1C95A6B470A606DFFEFA457 /* FZDateFormatter.swift */,
+				A4AD57EF4DE3A38B521206E73DF0B215 /* NSAttributedString+CustomLineSpacing.swift */,
+				3B2B8CD642DC48614C3B36685C50A69E /* NSAttributedString+Range.swift */,
+				6638574A8D6C240A8AB07BC498147EE8 /* NSLayoutConstraint+Multiplier.swift */,
+				C5830731BC4FD51A3860C5D1A0EB87DF /* NSObject+RemoveObservers.swift */,
+				C7D4C0BDE0F169B2E5873D1E0C6A17E7 /* NSString+StripCurrency.swift */,
+				8FE379AD2B7D6705C51E63D238A32308 /* SKProduct+TrialDuration.swift */,
+				A41A131F4A0847E8E4C02FA8E4748DD3 /* String+FirstLetterCapitalization.swift */,
+				535D6CCDBBB99FBF28585B8C3B110AAE /* String+SizeWithFont.swift */,
+				A8A802FE5D2E34234E00A4FC4F8A64A0 /* String+Subscript.swift */,
+				A3B2C95FFD398F26BB1030493A54AA72 /* String+Validation.swift */,
+				3AAA786933012F249AA7236DCEC4ACC0 /* String+Version.swift */,
+				77318D1DACB8044A8987A1651C0C476E /* UIApplication+TopViewController.swift */,
+				1004834CF4BC3D76E51DDACD85879BDB /* UIButton+Fade.swift */,
+				0E115F8DB4EDC5760F4274BBBBF128F8 /* UIButton+Subtitle.swift */,
+				C485F36071F0804F80BB05F6EA2EFD5C /* UIColor+Brightness.swift */,
+				447DBC49F9403EA93B60747B0CFA1D26 /* UIGestureRecognizer+Cancel.swift */,
+				782214C89AEC01B8CE813F9F2F53BF3B /* UIImage+Color.swift */,
+				F26D89FA6144C1D5B1285C8E8F30F6AB /* UIImageView+Crossfade.swift */,
+				8F2DCCB75F31C90E5AA32D34CF9D2113 /* UILabel+Fade.swift */,
+				C5772EB00AE7B23CA0575C02C91FE6B6 /* UINavigationController+TopBarHeight.swift */,
+				B83A152523188506A3EDF255899EA846 /* UIPageViewController+ScrollView.swift */,
+				DCB626CFB4DF8D99987050CF443D07CB /* UISearchBar+Subviews.swift */,
+				FACC27F854E1E2C8D99C5B1A62C9F089 /* UITabBarItem+Custom.swift */,
+				CB6D0FD5AC36B8EF97016DC28B5D9E8C /* UITableViewCell+TableView.swift */,
+				3100729C16B99DEDE49E5FBF6286D8EC /* UIView+LoadFromNib.swift */,
+				65483768507565859E95BEB85A3EEB31 /* UIView+ParentViewController.swift */,
+				4FB28BBE6913EEF2AACE25CD77EDDB4D /* UIView+RemoveGestureRecognizers.swift */,
+				7B65F910AB783E78441DD927B22DCB23 /* UIView+RoundCorners.swift */,
+				21F532D2A4ADE5B650E66D8729E2AC2A /* UIView+Underline.swift */,
+				3924BA25486A912F6011ED6EECA817EE /* UIView+ViewDisplay.swift */,
+				8D5BE1B4D4F794EB182C9A6558327C5F /* UIViewController+ChildViewController.swift */,
+				CD298311D9EB94FBCE9EDA3D7AD69EB2 /* UIViewController+PreloadView.swift */,
+				95C7963E54C5B8998141E09A128E8013 /* UIViewController+StatusBarWindowLevel.swift */,
+				CF434E934D648AC35714ECBB26CE679C /* UIViewController+UserActivity.swift */,
+				952C8E64AD6771A70C12300FDF95BACD /* URLRequest+CurlCommand.swift */,
+				7954B342C9B06615324619D4325F9678 /* Support Files */,
+			);
+			name = FuzeUtils;
+			path = FuzeUtils;
+			sourceTree = "<group>";
+		};
+		7954B342C9B06615324619D4325F9678 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13B150E1C4DF47FA330A68CE716E539B /* FuzeUtils.modulemap */,
+				A8CA2F1D9B17FE9B1B09540E12BD9E3D /* FuzeUtils.xcconfig */,
+				202CE14DA54DADD6F984DF675657C122 /* FuzeUtils-dummy.m */,
+				30873D5DE5A206B26E3121C463392915 /* FuzeUtils-Info.plist */,
+				4AAB9A38098FB0B81E46A51B26E18CCE /* FuzeUtils-prefix.pch */,
+				895601FF6096E8367F06829F61E1D41A /* FuzeUtils-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FuzeUtils";
+			sourceTree = "<group>";
+		};
+		A73D23A2AA659F78ED7BAED0559C4CD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7512B5AF75AEC09E393161DAEF4BBBD7 /* FuzeUtils */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B78BDAFD50261FBC35E903725AA15AB1 /* FZTextFocuser */ = {
+			isa = PBXGroup;
+			children = (
+				BAF1544B4306F42255588A5051E8A7E8 /* FZTextFocuser.swift */,
+				2DEC305A68BA8C734A865BE10C5DC821 /* Pod */,
+				D3DE2C4CBCD3E9D67A9478403EF4D732 /* Support Files */,
+			);
+			name = FZTextFocuser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6B9CEDBAC706A01FB595D452275A87D4 /* Development Pods */,
+				E11638A31C62EDC65D33F04FE1BDA37D /* Frameworks */,
+				A73D23A2AA659F78ED7BAED0559C4CD7 /* Pods */,
+				145430C6752D99023034FF427F88FB87 /* Products */,
+				50B68F28A549F2A03EFC1C45443847E0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DE2C4CBCD3E9D67A9478403EF4D732 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABFE5E6E58331E87320F01213835CDD9 /* FZTextFocuser.modulemap */,
+				70879CCA0752CD620939AF965D30014F /* FZTextFocuser.xcconfig */,
+				B87FB232E2FAB959DD865CBB7FD29704 /* FZTextFocuser-dummy.m */,
+				FE61256CA702F5D7233FB3FF706AF2B0 /* FZTextFocuser-Info.plist */,
+				ACB4C26D4D6F9AC04A2247C2591179CE /* FZTextFocuser-prefix.pch */,
+				E06C36C06299ACA22CC2E6E7D4086507 /* FZTextFocuser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FZTextFocuser";
+			sourceTree = "<group>";
+		};
+		E11638A31C62EDC65D33F04FE1BDA37D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF7E24A9D2FC8598D039F8CEF7B51148 /* FuzeUtils.framework */,
+				25A1E08C36898E8AD0010CE2D4768FEF /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB5343FE32741CDD01E75DB9D5AF38FD /* Pods-FZTextFocuser_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7990B93007EB2EDA076CFD7F41D6B698 /* Pods-FZTextFocuser_Example.modulemap */,
+				B6C2950D209AD6D68760B540072EAD33 /* Pods-FZTextFocuser_Example-acknowledgements.markdown */,
+				7466416AAD37CF42E2897BEF8BEE9034 /* Pods-FZTextFocuser_Example-acknowledgements.plist */,
+				1784E871EFE4DAC119C56DF7328876A6 /* Pods-FZTextFocuser_Example-dummy.m */,
+				AB804F9A67D581EEB102224742B2F30A /* Pods-FZTextFocuser_Example-frameworks.sh */,
+				759E825FD3D650EC9828E01509F40575 /* Pods-FZTextFocuser_Example-Info.plist */,
+				1D3247D19DF80ADAAEA2EA9C43371F16 /* Pods-FZTextFocuser_Example-umbrella.h */,
+				FE44E6A6B0A383FB276EC88652931A6A /* Pods-FZTextFocuser_Example.debug.xcconfig */,
+				99BE1D3486C38AD7910C396849237BF6 /* Pods-FZTextFocuser_Example.release.xcconfig */,
+			);
+			name = "Pods-FZTextFocuser_Example";
+			path = "Target Support Files/Pods-FZTextFocuser_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		973EB48DE78DB2A0E12AB83D5610B75E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9757BD662B436A503B31A71562768F48 /* Pods-FZTextFocuser_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF94BC72C52E798AEA7D13A82DBFFA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C932002880194744F23B3C45556214 /* FuzeUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F13B2C34028F8F5FBC1351F46D183151 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E8C29B0D797A5B59CF2BA0EB889F15 /* FZTextFocuser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		140858EDB8A4DD4819F968A22BB7041B /* FZTextFocuser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1C1CE8FCC7F20D78A553120B450596 /* Build configuration list for PBXNativeTarget "FZTextFocuser" */;
+			buildPhases = (
+				F13B2C34028F8F5FBC1351F46D183151 /* Headers */,
+				4147AE4B6AF00E232ED07CFF2162E4BE /* Sources */,
+				63A7619E04A3649AE9EF396D510158E4 /* Frameworks */,
+				14518184BD5AC9172FDE4A90A13C87DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FD1C28ED9F395A2084F5C801435AE90 /* PBXTargetDependency */,
+			);
+			name = FZTextFocuser;
+			productName = FZTextFocuser;
+			productReference = B92905E0ACF67749BCD1B7D7A49DD5E7 /* FZTextFocuser.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		38C29EB4EE490C6C4E38798EA05A707B /* Pods-FZTextFocuser_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15E12E39D8D760451C0BC9E3F7DB4FCE /* Build configuration list for PBXNativeTarget "Pods-FZTextFocuser_Example" */;
+			buildPhases = (
+				973EB48DE78DB2A0E12AB83D5610B75E /* Headers */,
+				9265470224119535BE0589E7E03F5EF0 /* Sources */,
+				D7216C88F2ADA2147AFE3B185BC20398 /* Frameworks */,
+				9C329D903E87BC2A7046059DAD789DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				982C5B117470611E2BCD332CBEEC14D0 /* PBXTargetDependency */,
+				82779CC54182358434E01CB10075BB92 /* PBXTargetDependency */,
+			);
+			name = "Pods-FZTextFocuser_Example";
+			productName = "Pods-FZTextFocuser_Example";
+			productReference = 5C66264273E782A9ED1B485BEF99F82C /* Pods_FZTextFocuser_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDDE9CF0D93338A80B75F65BDA3A9213 /* FuzeUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0905791988A2EB68434949BFFBC17A18 /* Build configuration list for PBXNativeTarget "FuzeUtils" */;
+			buildPhases = (
+				DFF94BC72C52E798AEA7D13A82DBFFA9 /* Headers */,
+				34FBE00EB136505B834AB761DA8E5431 /* Sources */,
+				71E45EDEA05F77C345F3A044018BC0DB /* Frameworks */,
+				F699BF0F09FB1307C871DE5CB792DF45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuzeUtils;
+			productName = FuzeUtils;
+			productReference = EA3D0024374299547506E73993373665 /* FuzeUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 145430C6752D99023034FF427F88FB87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDDE9CF0D93338A80B75F65BDA3A9213 /* FuzeUtils */,
+				140858EDB8A4DD4819F968A22BB7041B /* FZTextFocuser */,
+				38C29EB4EE490C6C4E38798EA05A707B /* Pods-FZTextFocuser_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14518184BD5AC9172FDE4A90A13C87DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C329D903E87BC2A7046059DAD789DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F699BF0F09FB1307C871DE5CB792DF45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34FBE00EB136505B834AB761DA8E5431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5680D95C63791C62DD06378F5584C04C /* CALayer+Animation.swift in Sources */,
+				6EAE3315CFB67FE5115FA8C4805A03D1 /* Date+DateDifference.swift in Sources */,
+				4BB6056720E1F984E7F4174C87819337 /* DisplayHelper.swift in Sources */,
+				90CEFAC4310D534BAE09F53138A10A49 /* FuzeUtils-dummy.m in Sources */,
+				B4D823E911569B397E0683044D212D11 /* FZDateFormatter.swift in Sources */,
+				D5EE20CDE02E383224D61B9FDAF87398 /* NSAttributedString+CustomLineSpacing.swift in Sources */,
+				6404E20A7B375907F20D3057A77D2177 /* NSAttributedString+Range.swift in Sources */,
+				48B38DD89DDCC39CE37897B9D64C6EC7 /* NSLayoutConstraint+Multiplier.swift in Sources */,
+				13A61A6E6A654774D13A8F4EE1A2DAAA /* NSObject+RemoveObservers.swift in Sources */,
+				513DD3B59B8F6A1C5FB88A84BD225A04 /* NSString+StripCurrency.swift in Sources */,
+				0654022A90DF466040E1264CA7F7D884 /* SKProduct+TrialDuration.swift in Sources */,
+				FB3AA0355EBCBD7BB0D366B3B8EDDC3D /* String+FirstLetterCapitalization.swift in Sources */,
+				EEF5BFFDD224DCA5F631AE3F67CB3781 /* String+SizeWithFont.swift in Sources */,
+				9712F8E9283CB982184C846EA7233648 /* String+Subscript.swift in Sources */,
+				9F33AFD9A180C865D9F46DD833FB2568 /* String+Validation.swift in Sources */,
+				C8C9BD99786D9E7473947BD786793909 /* String+Version.swift in Sources */,
+				011CA0FE188C3EC33774127496DB0A3A /* UIApplication+TopViewController.swift in Sources */,
+				8C7DB82E9B58369D6CE143002D5F769A /* UIButton+Fade.swift in Sources */,
+				611EAE13AF0E9DE7AC441DA99083B930 /* UIButton+Subtitle.swift in Sources */,
+				19B2A1E4335906696819B9DC164679D8 /* UIColor+Brightness.swift in Sources */,
+				564A0D739A19FFAD000E99E98CD958E3 /* UIGestureRecognizer+Cancel.swift in Sources */,
+				23A8E8449DE61E08E48BBDD8BC6AC0BC /* UIImage+Color.swift in Sources */,
+				EF9ED273EB20DB11DA9B430F84F413ED /* UIImageView+Crossfade.swift in Sources */,
+				EBAFD6C6B39CD9C53CEA9DE843EABA50 /* UILabel+Fade.swift in Sources */,
+				9C047C24137073C16EA687C023B849E1 /* UINavigationController+TopBarHeight.swift in Sources */,
+				BD9B4650EBF66156F44CB217D1A55317 /* UIPageViewController+ScrollView.swift in Sources */,
+				F2FD34061510A508970B3052E73E29FA /* UISearchBar+Subviews.swift in Sources */,
+				764E1E06BAA60E91CA19B4EBA5D4696E /* UITabBarItem+Custom.swift in Sources */,
+				9D017854C4A8CE781105A636A6DB6598 /* UITableViewCell+TableView.swift in Sources */,
+				43FA6896C2CD556E7E985DC5685AE040 /* UIView+LoadFromNib.swift in Sources */,
+				18682A543A6943EB39DF7270F63D1F5E /* UIView+ParentViewController.swift in Sources */,
+				6DCCD6C1AF69B8A5F7188B9B2B12E60F /* UIView+RemoveGestureRecognizers.swift in Sources */,
+				5969AA3B2DA1B3066821DECD6659C0E2 /* UIView+RoundCorners.swift in Sources */,
+				2B7D46129AD82E1CB6CADE3190118129 /* UIView+Underline.swift in Sources */,
+				E9502BBC28B2C1839E7A8561F0CC1709 /* UIView+ViewDisplay.swift in Sources */,
+				66D7631236FA9B86F0805C1FC7D42C7B /* UIViewController+ChildViewController.swift in Sources */,
+				63C2202488DFBD137FE149A2F5E95C36 /* UIViewController+PreloadView.swift in Sources */,
+				B2C4E99BCCA13FD53211868313905B2A /* UIViewController+StatusBarWindowLevel.swift in Sources */,
+				CFB135AC1E23ADC734370F6BE4DD49A4 /* UIViewController+UserActivity.swift in Sources */,
+				1E8379F861625137B37EFC89EE1EFEDF /* URLRequest+CurlCommand.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4147AE4B6AF00E232ED07CFF2162E4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672E232BEC9FE52C6CAA46AC7613CEC2 /* FZTextFocuser-dummy.m in Sources */,
+				ABD576DA22608D4984F7A230BF5E3B4A /* FZTextFocuser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9265470224119535BE0589E7E03F5EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A0E9EAD4BA16576F45B8A08090EC61 /* Pods-FZTextFocuser_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FD1C28ED9F395A2084F5C801435AE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FuzeUtils;
+			target = EDDE9CF0D93338A80B75F65BDA3A9213 /* FuzeUtils */;
+			targetProxy = AFCF9150F86A262A8A05CDF34BBB8D5D /* PBXContainerItemProxy */;
+		};
+		82779CC54182358434E01CB10075BB92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FuzeUtils;
+			target = EDDE9CF0D93338A80B75F65BDA3A9213 /* FuzeUtils */;
+			targetProxy = 8367C0FFC678EA1F8C9EEF39D11C4A43 /* PBXContainerItemProxy */;
+		};
+		982C5B117470611E2BCD332CBEEC14D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FZTextFocuser;
+			target = 140858EDB8A4DD4819F968A22BB7041B /* FZTextFocuser */;
+			targetProxy = 225C157E105A89F15C4BFCE07DABAB5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21FDBBA7BCB3982F1C00BD12CC25058B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70879CCA0752CD620939AF965D30014F /* FZTextFocuser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZTextFocuser/FZTextFocuser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZTextFocuser/FZTextFocuser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZTextFocuser/FZTextFocuser.modulemap";
+				PRODUCT_MODULE_NAME = FZTextFocuser;
+				PRODUCT_NAME = FZTextFocuser;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F5205EE23171F0EF7B334AB5561DF23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70879CCA0752CD620939AF965D30014F /* FZTextFocuser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FZTextFocuser/FZTextFocuser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FZTextFocuser/FZTextFocuser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FZTextFocuser/FZTextFocuser.modulemap";
+				PRODUCT_MODULE_NAME = FZTextFocuser;
+				PRODUCT_NAME = FZTextFocuser;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63CE1A05384CF378C43C97E84BDE6B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CA2F1D9B17FE9B1B09540E12BD9E3D /* FuzeUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuzeUtils/FuzeUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuzeUtils/FuzeUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuzeUtils/FuzeUtils.modulemap";
+				PRODUCT_MODULE_NAME = FuzeUtils;
+				PRODUCT_NAME = FuzeUtils;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81A32CC4B51935BBB743071AAD51E3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8CA2F1D9B17FE9B1B09540E12BD9E3D /* FuzeUtils.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuzeUtils/FuzeUtils-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuzeUtils/FuzeUtils-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuzeUtils/FuzeUtils.modulemap";
+				PRODUCT_MODULE_NAME = FuzeUtils;
+				PRODUCT_NAME = FuzeUtils;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98AF8FDA9766E398737FB9347803856E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Debug;
+		};
+		AC65FF4773C1AD9C69E87AF7F6806A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99BE1D3486C38AD7910C396849237BF6 /* Pods-FZTextFocuser_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZTextFocuser_Example/Pods-FZTextFocuser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZTextFocuser_Example/Pods-FZTextFocuser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DB9930ACE2A104ADA16F5B267903B701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE44E6A6B0A383FB276EC88652931A6A /* Pods-FZTextFocuser_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FZTextFocuser_Example/Pods-FZTextFocuser_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FZTextFocuser_Example/Pods-FZTextFocuser_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E69D395311DB933C3106E179659F4578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 12.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0905791988A2EB68434949BFFBC17A18 /* Build configuration list for PBXNativeTarget "FuzeUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63CE1A05384CF378C43C97E84BDE6B9D /* Debug */,
+				81A32CC4B51935BBB743071AAD51E3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D1C1CE8FCC7F20D78A553120B450596 /* Build configuration list for PBXNativeTarget "FZTextFocuser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FDBBA7BCB3982F1C00BD12CC25058B /* Debug */,
+				5F5205EE23171F0EF7B334AB5561DF23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15E12E39D8D760451C0BC9E3F7DB4FCE /* Build configuration list for PBXNativeTarget "Pods-FZTextFocuser_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9930ACE2A104ADA16F5B267903B701 /* Debug */,
+				AC65FF4773C1AD9C69E87AF7F6806A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98AF8FDA9766E398737FB9347803856E /* Debug */,
+				E69D395311DB933C3106E179659F4578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'FZTextFocuser_Example' do
+  pod 'FZTextFocuser', :path => '../'
+  
+end

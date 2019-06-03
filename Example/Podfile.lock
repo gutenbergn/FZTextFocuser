@@ -1,0 +1,23 @@
+PODS:
+  - FuzeUtils (0.2.8)
+  - FZTextFocuser (0.1.0):
+    - FuzeUtils
+
+DEPENDENCIES:
+  - FZTextFocuser (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FuzeUtils
+
+EXTERNAL SOURCES:
+  FZTextFocuser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FuzeUtils: 74650299de71f9746f6f91b0328a2d1d045f8913
+  FZTextFocuser: dbc9a8b9702579ef3288e56144e346f090328916
+
+PODFILE CHECKSUM: b7f06545dafba396e589b1a91e1864a397850beb
+
+COCOAPODS: 1.6.0

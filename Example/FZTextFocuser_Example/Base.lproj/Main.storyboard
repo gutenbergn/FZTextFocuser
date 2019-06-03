@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" orientation="landscape">
+        <adaptation id="light"/>
+    </device>
+    <dependencies>
+        <deployment identifier="tvOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FZTextFocuser_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4aC-kj-7WL" customClass="FZTextFocuser" customModule="FZTextFocuser">
+                                <rect key="frame" x="190" y="60" width="1540" height="130"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="ewZ-e9-GMB"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2JS-Wb-iid" customClass="FZTextFocuser" customModule="FZTextFocuser">
+                                <rect key="frame" x="190" y="620" width="1540" height="400"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="VOa-8Y-bds"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZu-0z-ORa">
+                                <rect key="frame" x="190" y="190" width="1540" height="430"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.13725490200000001" green="0.1764705882" blue="0.82352941180000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2JS-Wb-iid" secondAttribute="bottom" id="5EU-j5-6SN"/>
+                            <constraint firstItem="jZu-0z-ORa" firstAttribute="leading" secondItem="4aC-kj-7WL" secondAttribute="leading" id="5o4-dk-IWQ"/>
+                            <constraint firstItem="2JS-Wb-iid" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="100" id="9IQ-O5-Oo1"/>
+                            <constraint firstItem="jZu-0z-ORa" firstAttribute="top" secondItem="4aC-kj-7WL" secondAttribute="bottom" id="Buf-qK-Mcf"/>
+                            <constraint firstItem="4aC-kj-7WL" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="100" id="ZKz-DG-X0x"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="2JS-Wb-iid" secondAttribute="trailing" constant="100" id="bg1-Yj-UTD"/>
+                            <constraint firstItem="2JS-Wb-iid" firstAttribute="top" secondItem="jZu-0z-ORa" secondAttribute="bottom" id="dZ8-Q9-GHc"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="4aC-kj-7WL" secondAttribute="trailing" constant="100" id="jOk-8N-yIV"/>
+                            <constraint firstItem="jZu-0z-ORa" firstAttribute="trailing" secondItem="4aC-kj-7WL" secondAttribute="trailing" id="jpo-b5-MqY"/>
+                            <constraint firstItem="4aC-kj-7WL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sHI-c3-GPe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
+                    </view>
+                    <connections>
+                        <outlet property="textFocuser1" destination="4aC-kj-7WL" id="MtS-bS-Jfn"/>
+                        <outlet property="textFocuser2" destination="2JS-Wb-iid" id="wJ3-4w-VzM"/>
+                        <outlet property="textTappedLabel" destination="jZu-0z-ORa" id="xzO-r2-Xdo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
